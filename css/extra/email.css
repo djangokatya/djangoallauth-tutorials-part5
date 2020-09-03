@@ -1,0 +1,112 @@
+/* blocks */
+body {
+    font-size: 1.4em;
+}
+
+div.menu-div {
+    display: flex;
+}
+
+.lingo {
+    background-color: #d8e4f5;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.body-wrap {
+    background-color: #fbfbff;
+    border: 2px solid #d8e4f5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.body-wrap-window {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.body-title {
+    margin: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.team-div {
+    display: inline-grid;
+}
+
+.lead {
+    margin: 0;
+}
+
+div.container {
+    max-width: 700px;
+}
+
+/* elements */
+
+a {
+    color: #337ab7;
+}
+
+a:hover {
+    font-style: normal;
+    color: #4e657b;
+}
+
+a:visited {
+    color: #4e657b;
+}
+
+ul.menu-list {
+    list-style: none;
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    color: #4e657b;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-wrap {
+    text-align: center;
+}
+
+.img-logo {
+    height: 50px;
+}
+
+.user-name {
+    font-weight: 700
+}
+
+.small-txt {
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.button1:hover {
+    background-color: #a4b9f3;
+    font-size: 1.4em;
+    color: white;
+    border: 1px solid #a4b9f3;
+}
+
+.button1 {
+    background-color: white;
+    font-size: 1.4em;
+    color: #a4b9f3;
+    border: 1px solid #a4b9f3;
+}
+
+.p-button1-wrapper {
+    text-align: center;
+}

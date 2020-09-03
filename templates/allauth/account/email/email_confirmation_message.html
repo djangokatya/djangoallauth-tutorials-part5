@@ -1,0 +1,20 @@
+{% extends 'allauth/account/email/base.html' %}
+
+{% block title %}Email Confirmation{% endblock title %}
+
+{% block main_title %}Thank you for joining <strong>DjangoKatya</strong>!{% endblock main_title %}
+{% block main %}{% load account %}{% user_display user as user_display %}{% load i18n %}
+    {% autoescape off %}
+        <p>
+            You're receiving this e-mail because user <span
+                class="user-name">{{ user_display }}</span> has given yours as an
+            e-mail address to connect their account.
+        </p>
+
+        <p>To confirm this is correct, activate your account:</p>
+        <p class="p-button1-wrapper"><a class="btn btn-lg button1"
+                                        href="{{ activate_url }}">Activate</a></p>
+        <p class="small-txt">or via this <a href="{{ activate_url }}">link</a></p>
+    {% endautoescape %}{% endblock main %}
+
+{% block additional_below %}{% endblock %}
