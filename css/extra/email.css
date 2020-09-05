@@ -8,15 +8,15 @@ div.menu-div {
 }
 
 .lingo {
-    background-color: #d8e4f5;
+    background-color: #dbeae3;
     padding: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .body-wrap {
-    background-color: #fbfbff;
-    border: 2px solid #d8e4f5;
+    background-color: #fbfffd;
+    border: 2px solid #dbeae3;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -48,16 +48,16 @@ div.container {
 /* elements */
 
 a {
-    color: #337ab7;
+    color: #4b7b5c;
 }
 
 a:hover {
     font-style: normal;
-    color: #4e657b;
+    color: #407b70;
 }
 
 a:visited {
-    color: #4e657b;
+    color: #407b70;
 }
 
 ul.menu-list {
@@ -69,7 +69,7 @@ ul.menu-list {
 
 li {
     font-size: 1.2em;
-    color: #4e657b;
+    color: #407b70;
     margin: 5px 10px;
     display: flex;
     flex-direction: row;
@@ -94,17 +94,17 @@ li {
 }
 
 .button1:hover {
-    background-color: #a4b9f3;
+    background-color: #80bc84;
     font-size: 1.4em;
     color: white;
-    border: 1px solid #a4b9f3;
+    border: 1px solid #80bc84;
 }
 
 .button1 {
     background-color: white;
     font-size: 1.4em;
-    color: #a4b9f3;
-    border: 1px solid #a4b9f3;
+    color: #a6f3ab;
+    border: 1px solid #80bc84;
 }
 
 .p-button1-wrapper {

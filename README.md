@@ -5,5 +5,6 @@ This particular repository is a follow-up to
 Based on [Narrow Jumbotron](https://getbootstrap.ru/docs/3.3.7/examples/jumbotron-narrow/) by Bootstrap.<br />
 Made to be compatible with Django 2.x and for [django-allauth](https://github.com/pennersr/django-allauth).<br />
 
-
-![How it looks](https://djangokatya.files.wordpress.com/2020/09/screenshot-from-2020-09-03-21-14-35-e1599156919486.png)
+Contains two pages - Email Confirmation and Password Reset <br />
+![Email Confirmation](https://djangokatya.files.wordpress.com/2020/09/screenshot-from-2020-09-03-21-14-35-e1599156919486.png)
+![Password Reset](https://djangokatya.files.wordpress.com/2020/09/screenshot-from-2020-09-05-21-04-33-e1599329147606.png)
